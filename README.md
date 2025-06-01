@@ -20,3 +20,6 @@ A Python-based crawler that fetches recent tweets for any hashtag using Twitter 
 git clone https://github.com/yourusername/x_crawler.git
 cd x_crawler
 pip install -r requirements.txt
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
