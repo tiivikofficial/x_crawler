@@ -1,22 +1,30 @@
-# X (Twitter) Hashtag Crawler 🐦
+# X (Twitter) Hashtag Crawler
 
-A Python-based crawler that fetches recent tweets for any hashtag using Twitter API v2.
+![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)
+![Twitter API](https://img.shields.io/badge/Twitter%20API-v2-blue)
 
-## Features ✨
-- Real-time tweet extraction (100 most recent tweets)
-- Rich console output with color-coded metrics
-- Data organization in Pandas DataFrame
-- Metrics tracking (likes, retweets, replies)
-- Retweet filtering for original content
+## Features
+- Real-time tweet extraction (100 most recent)
+- Color-coded console output
+- Pandas DataFrame integration
+- Metrics analysis (likes, retweets, replies)
 
-## Setup Guide 🛠️
+## Sample Output
+```plaintext
+[INFO] Fetching tweets with hashtag...
+[SUCCESS] Found 5 tweets!
 
-### Prerequisites
-- Python 3.8+
-- Twitter Developer Account (Bearer Token)
+Tweet ID: 1929094663958388771
+Created At: 2025-06-01 08:36:23+00:00
+Text: 
+Python es una excelente herramienta para el trabajo con grandes volúmenes de datos. 
+Aprende a programar Python desde cero y empieza a usarlo para el Big Data.
+Curso tutorizado y online dirigido a educadores, investigadores, 
+científicos y matemáticos #Python
+https://t.co/tIXVao0pNB https://t.co/boWFaiatnS
 
-### Installation
-```bash
-git clone https://github.com/yourusername/x_crawler.git
-cd x_crawler
-pip install -r requirements.txt
+Metrics:
+❤️ Likes: 0
+� Retweets: 0
+� Replies: 0
+--------------------------------------------------
